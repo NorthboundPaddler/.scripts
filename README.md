@@ -3,6 +3,10 @@ Simple bash script to capture fleeting notes from the CLI
 
 ## Installation
 You can just git-clone this repo, and note down the path. The examples below have this repo cloned into a users home directory (~). 
+``
+cd ~
+git clone https://github.com/NorthboundPaddler/autojournal.git
+``
 
 **Note:** This script is set up for running in a bash shell, no guarantees about any other shells like Fish or ZSH. 
 
