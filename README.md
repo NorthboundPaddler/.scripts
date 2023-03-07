@@ -24,5 +24,7 @@ alias jp="tail ~/journal.md -n 5
 
 These aliases allow you to use `j` and `jp` in your terminal to both add and view recent journal entries
 
+You can call the command with no arguments, and a prompt will appear for you to enter your input text. Also, you can supply a string within double-quotes after the call of the shell script to utilize an inline input. For example: `j "foobar"`.
+
 ## Motivation
 This is for those who are working on a new Linux install and are really bad about documenting what's been done. Hopefully this creates less friction to writing *some* notes. 
