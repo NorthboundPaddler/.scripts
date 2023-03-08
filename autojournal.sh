@@ -4,7 +4,7 @@
 if [[ -z "$1" ]]; then
 	read -p "Type your journal entry: " entry
 else
-	entry="$1"
+	entry="$@"
 fi
 
 # Concatenate the date timestamp, a delimter, and input
