@@ -8,9 +8,9 @@ else
 fi
 
 # Concatenate the date timestamp, a delimter, and input
-dt=$(TZ=America/Chicago date +%Y-%m-%d-%T) 
+dt=$(TZ=America/Chicago date +%Y-%m-%d %T) 
 padding=" - "
-line="$dt$padding$entry"
+line="$dt$padding$entry  " #Note the 2 spaces at EOL to parse as a newline
 
 # Log the concatenated input to a file
 #echo $line
