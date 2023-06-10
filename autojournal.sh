@@ -10,9 +10,9 @@ fi
 # Concatenate the date timestamp, a delimter, and input
 dt=$(TZ=America/Chicago date +%Y-%m-%d-%T) 
 padding=" - "
-newline="  "
-line="$dt$padding$entry$newline"
+
+line="$dt$padding$entry. "
 
 # Log the concatenated input to a file
 #echo $line
-echo $line >> ~/journal.md 
+echo "$line" >> ~/journal.md 
