@@ -6,7 +6,7 @@ CYN='\e[36m'
 END='\e[0m'
 
 
-BATTERY="BAT0"
+BATTERY="BAT1"
 CAP="$(cat /sys/class/power_supply/$BATTERY/capacity)"
 STATE="$(cat /sys/class/power_supply/$BATTERY/status)"
 
