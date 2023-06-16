@@ -11,7 +11,7 @@ fi
 dt=$(TZ=America/Chicago date +%Y-%m-%d-%T) 
 padding=" - "
 
-line="$dt$padding$entry. "
+line="$dt$padding$entry  "
 
 # Log the concatenated input to a file
 #echo $line
